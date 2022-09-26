@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap w/ Parcel</title>
+  <link rel="stylesheet" href="/index.044e704e.css">
+  <script src="/index.18dbc454.js" defer=""></script>
+</head>
+
+<body>
+  <div class="container-fluid d-flex flex-nowrap fix-height">
+    <div class="d-flex flex-column align-items-stretch flex-shrink-0 fix-height bg-primary sidebar">
+      <div class="d-flex flex-shrink-0 w-100">
+        <a href="/" class="mx-auto my-4">
+          <img class="logo" src="/logo.5b34b4d1.svg">
+        </a>
+      </div>
+      <div class="overflow-auto scrollbar d-flex py-2">
+        <div class="d-flex flex-wrap select-table m-auto">
+          <a href="/order-pendding.html" class="btn btn-light pending">1</a>
+          <a href="/order-pendding.html" class="btn btn-light completed">2</a>
+          <a href="/create-order.html" class="btn btn-light active">3</a>
+          <a href="/create-order.html" class="btn btn-light">4</a>
+          <a href="/create-order.html" class="btn btn-light">5</a>
+          <a href="/create-order.html" class="btn btn-light">6</a>
+          <a href="/create-order.html" class="btn btn-light">7</a>
+          <a href="/create-order.html" class="btn btn-light">8</a>
+          <a href="/create-order.html" class="btn btn-light">9</a>
+          <a href="/create-order.html" class="btn btn-light">10</a>
+        </div>
+      </div>
+    </div>
+    <div class="w-100 p-6 fix-height content">
+      <div class="content-header border-bottom border-gold w-100 d-flex">
+        <h2 class="mb-3 me-auto">Table No.3</h2>
+        <button class="btn btn-outline-primary ms-3 mb-3" data-bs-toggle="modal" data-bs-target="#addNote"><i class="fa-light fa-message-lines me-2"></i>Add note</button>
+        <button class="btn btn-outline-primary ms-3 mb-3" data-bs-toggle="modal" data-bs-target="#changeTable"><i class="fa-light fa-repeat me-2"></i>Change table</button>
+        <button class="btn btn-outline-danger ms-3 mb-3" data-bs-toggle="modal" data-bs-target="#cancelOrder"><i class="fa-light fa-trash me-2"></i>Cancel order</button>
+      </div>
+      <div class="d-flex w-100 content-body">
+        <div class="pt-4 w-100 menu">
+          <div class="d-flex w-100">
+            <h4 class="mb-0 me-6">Menu</h4>
+            <div class="search-input">
+              <input type="email" class="form-control" placeholder="search menu">
+            </div>
+            <a class="btn btn-sm btn-link ms-auto pb-0"><i class="fa-light fa-gear me-2"></i>Change sort order
+          </a></div>
+          <div class="card shadow mt-3 menu-tabs">
+            <ul class="nav nav-pills overflow-auto scrollbar-x" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab-1" data-bs-toggle="tab" data-bs-target="#tab-pane-1" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Main course</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-2" data-bs-toggle="tab" data-bs-target="#tab-pane-2" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Snack</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-3" data-bs-toggle="tab" data-bs-target="#tab-pane-3" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Dessert</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-4" data-bs-toggle="tab" data-bs-target="#tab-pane-4" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Drinks &
+                  Beverages</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-5" data-bs-toggle="tab" data-bs-target="#tab-pane-5" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Soft drink</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-6" data-bs-toggle="tab" data-bs-target="#tab-pane-6" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Kids</button>
+              </li>
+            </ul>
+            <div class="tab-content scrollbar menu-list" id="myTabContent">
+              <div class="tab-pane fade show active d-flex flex-wrap p-3" id="tab-pane-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f1.e13b487c.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Pappardelle – A Famous Ribbon Noodles In Rome And Tuscany Bistecca Alla Fiorentina
+                    Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+                <div class="menu-item" data-bs-toggle="modal" data-bs-target="#addItem">
+                  <div class="menu-img">
+                    <img src="/f2.b0e8814a.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <p class="mt-0">Bistecca Alla Fiorentina Yummy Fiorentina Beef Steak</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab-pane-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0">...</div>
+              <div class="tab-pane fade" id="tab-pane-3" role="tabpanel" aria-labelledby="tab-3" tabindex="0">...</div>
+              <div class="tab-pane fade" id="tab-pane-4" role="tabpanel" aria-labelledby="tab-4" tabindex="0">...</div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-4 w-100 ms-6">
+          <div class="d-flex w-100">
+            <h4 class="mb-0 me-6">Order items list</h4>
+          </div>
+          <div class="card shadow mt-3 order-item">
+            <div class="m-auto text-center text-muted">
+              <i class="fa-light fa-plate-utensils mb-5 display-5"></i>
+              <h4>No items</h4>
+            </div>
+          </div>
+          <h4 class="text-end fw-semibold mb-0 mt-5">Total: 0 kr</h4>
+          <button class="btn btn-lg btn-primary w-100 mt-4" disabled=""><i class="fa-light fa-credit-card me-3"></i>Send to
+            Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Add note modal -->
+  <div class="modal custom-modal fade" id="addNote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <i class="fa-light fa-message-lines"></i>
+        </div>
+        <div class="modal-body">
+          <h4>Add note</h4>
+          <div class="mt-5">
+            <textarea class="form-control" id="comment" rows="3"></textarea>
+          </div>
+          <div class="btn-area mt-5">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Change table modal -->
+  <div class="modal custom-modal fade" id="changeTable" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <i class="fa-light fa-repeat"></i>
+        </div>
+        <div class="modal-body">
+          <h4>Change table</h4>
+          <div class="mt-5">
+            <input type="text" class="form-control text-center w-50 m-auto" value="3">
+          </div>
+          <div class="btn-area mt-5">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add item modal -->
+  <div class="modal custom-modal fade" id="addItem" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <i class="fa-light fa-book-open"></i>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex">
+            <div><img src="/f2.b0e8814a.jpg" class="img-fluid food-img" alt="..."></div>
+            <div class="ms-6 w-100">
+              <h4 class="text-start">Linguine – Ribbon-Style Noodles</h4>
+              <div class="mt-5">
+                <label for="comment" class="form-label">Add comment</label>
+                <textarea class="form-control" id="comment" rows="1"></textarea>
+              </div>
+              <div class="mt-5">
+                <label class="form-label">Amount</label>
+                <div class="input-group w-50">
+                  <button class="btn btn-outline-light text-primary shadow-none fs-4 lh-1 rounded-start" type="button" id="button-addon1">+</button>
+                  <input type="number" class="form-control text-center" placeholder="">
+                  <button class="btn btn-outline-light text-primary shadow-none fs-4 lh-1 rounded-end" type="button" id="button-addon2">-</button>
+                </div>
+              </div>
+              <div class="btn-area justify-content-start mt-5">
+                <button type="button" class="btn btn-primary">Add item</button>
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cancel order modal -->
+  <div class="modal custom-modal fade" id="cancelOrder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <i class="fa-light fa-trash text-danger"></i>
+        </div>
+        <div class="modal-body">
+          <h4 class="text-danger">Cancel this order?</h4>
+          <div class="mt-6 text-center">
+            <p class="mb-0">You will not be abvle to rever it.</p>
+          </div>
+          <div class="btn-area mt-6">
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">No</button>
+            <button type="button" class="btn btn-danger">Cancel this order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
