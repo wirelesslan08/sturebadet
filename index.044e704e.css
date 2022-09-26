@@ -24436,16 +24436,16 @@ input[type="number"] {
 }
 
 .max-height {
-  max-height: calc(100vh - 143px);
+  max-height: 100vh;
 }
 
 .min-height {
-  min-height: calc(100vh - 143px);
+  min-height: 100vh;
 }
 
 .fix-height {
-  max-height: calc(100vh - 143px);
-  min-height: calc(100vh - 143px);
+  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .scrollbar {
@@ -24665,7 +24665,7 @@ h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .content-body {
-  min-height: calc(100vh - 243px);
+  min-height: calc(100vh - 100px);
 }
 
 .menu {
@@ -24739,8 +24739,8 @@ h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .menu .menu-list {
-  min-height: calc(100vh - 383px);
-  max-height: calc(100vh - 383px);
+  min-height: calc(100vh - 240px);
+  max-height: calc(100vh - 240px);
   overflow-y: auto;
 }
 
@@ -24777,8 +24777,8 @@ h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .order-item {
-  min-height: calc(100vh - 449px);
-  max-height: calc(100vh - 449px);
+  min-height: calc(100vh - 306px);
+  max-height: calc(100vh - 306px);
   overflow-y: auto;
 }
 
