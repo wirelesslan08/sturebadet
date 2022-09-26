@@ -24371,6 +24371,9 @@ textarea.form-control-lg {
 .sidebar {
   width: 166px;
   min-width: 166px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .sidebar .logo {
@@ -24629,6 +24632,13 @@ h2, .h2, h3, .h3, h4, .h4 {
   padding: 0;
 }
 
+.sticky-table-headers thead tr th {
+  z-index: 2;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
 .table-card {
   height: 52px;
   width: 350px;
@@ -24656,16 +24666,17 @@ h2, .h2, h3, .h3, h4, .h4 {
   background-color: #f8bc24;
 }
 
+.content {
+  max-width: calc(100vw - 164px);
+  margin-left: 164px;
+}
+
 .content-header {
   flex-flow: wrap;
 }
 
 .content-header .btn {
   width: 180px;
-}
-
-.content-body {
-  min-height: calc(100vh - 100px);
 }
 
 .menu {
@@ -24739,8 +24750,8 @@ h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .menu .menu-list {
-  min-height: calc(100vh - 240px);
-  max-height: calc(100vh - 240px);
+  min-height: calc(100vh - 260px);
+  max-height: calc(100vh - 260px);
   overflow-y: auto;
 }
 
@@ -24777,8 +24788,8 @@ h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .order-item {
-  min-height: calc(100vh - 306px);
-  max-height: calc(100vh - 306px);
+  min-height: calc(100vh - 324px);
+  max-height: calc(100vh - 324px);
   overflow-y: auto;
 }
 
