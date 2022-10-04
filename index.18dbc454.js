@@ -221,7 +221,7 @@ function getPort() {
     return HMR_PORT || location.port;
 } // eslint-disable-next-line no-redeclare
 var parent = module.bundle.parent;
-if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
+if ((!parent || !parent.isParcelRequire)) {
     var hostname = getHostname();
     var port = getPort();
     var protocol = HMR_SECURE || location.protocol == "https:" && !/localhost|127.0.0.1|0.0.0.0/.test(hostname) ? "wss" : "ws";
